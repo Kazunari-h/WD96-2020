@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media screen and (max-width: 768px) {
+
+body {
+	/*width: 1800px;*/
+	width: auto;
+	margin: 0 auto;
+}
+.page {
+	width: auto;
+	margin: 0 auto;
+}
+.header {
+	height: 50px;		
+}
+.navbar-brand {
+    width: 478px;
+	height: 49px;
+	margin-top: 11px;
+	margin-left: 30px;
+	background-image: url("../images_photo/logo_black.jpg");
+}
+.navbar-brand a {
+	width: 478px;
+	height: 49px;
+	display: block;
+	
+}
+	
+	
+	
+.wrapper {
+	width: 768px;
+	height: 6000px;
+	margin-top: 43px;
+	margin: 0 auto;
+	/*margin-right:auto;
+	margin-left: auto;*/
+}
+.bxslider {
+	width: 768px;
+	height: 427px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.bxslider img {
+	width: 768px;
+	height: 427px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.shop {
+	width: 768px;
+	height: 1600px; 
+	margin-top: 85px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.welcome {
+	width: 768px;
+	height: 864px;
+	margin: 9px;
+	font-size: 24px;
+	line-height: 38px;
+}
+.welcome_text {
+	width: 768px;
+	height: 340px;
+}
+.welcome h2 {
+	margin-top: -9px;
+}
+.slider_frame {
+	width: 640px;
+	height: 420px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #d9d9d9;
+	
+}
+.bxslider_welcome {
+	width: 600px;
+	height: 400px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.bxslider_welcome img {
+	width: 600px;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.france {
+	width: 720px;
+	height: 720px;
+	margin-top: -50px;
+	margin-left: 33px;
+	
+}
+.france_map {
+	width: 720px;
+	height: 720px;
+	background-image: url("../images_photo/map_of_france.jpg");
+}
+	
+/*patissier:*/
+	
+.patisserie {
+	width: 768px;
+	height: 1320px;
+	margin-top: 43px;
+	padding-top:13px;
+	background-color: #d9d9d9;
+}
+.patisserie_upper {
+	width: 760px;
+	height: 640px;
+	margin-right: 4px;
+	margin-left: 4px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cake-aux-fruits {
+	width: 380px;
+	height: 313.5px;
+}
+.cake-aux-fruits_image {
+	width: 380px;
+	height: 254px;
+	background-image: url("../images_photo/cake-aux-friuit.jpg");
+}
+.cake-aux-fruits_text {
+	text-align: center;
+}
+.cake-marbre {
+	width: 380px;
+	height: 313.5px;	
+}
+.cake-marbre_image {
+	width: 380px;
+	height: 254px;
+	background-image: url("../images_photo/cake-marbre.jpg");
+}
+.cake-marbre_text {
+	text-align: center;
+}
+.calissons {
+	width: 380px;
+	height: 313.5px;
+}
+.calissons_image {
+	width: 380px;
+	height: 254px;
+	background-image: url("../images_photo/calissons.jpg");
+}
+.calissons_text {
+	text-align: center;
+}
+.cannele {
+	width: 380px;
+	height: 313.5px;
+}
+.cannele_image {
+	width: 380px;
+	height: 254px;
+	background-image: url("../images_photo/cannele.jpg");
+}
+.cannele_text {
+	text-align: center;
+}
+.patisserie_lower {
+	width: 760px;
+	height: 627px;
+	margin-right: 10px;
+	margin-left: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.financier {
+	width: 380px;
+	height: 313.5px;
+}
+.financier_image {
+	width: 380px;
+	height: 254px;
+	background-image: url("../images_photo/financier.jpg");
+}
+.financier_text {
+	text-align: center;
+}
+.macarons {
+	width: 380px;
+	height: 313.5px;
+}
+.macarons_image {
+	width: 380px;
+	height: 254px;
+	background-image: url("../images_photo/macaron.jpg");
+}
+.macarons_text {
+	text-align: center;
+}
+.madeleine {
+	width: 380px;
+	height: 313.5px;
+}
+.madeleine_image {
+	width: 380px;
+	height: 254px;
+	background-image: url("../images_photo/madeleine.jpg");
+}
+.madeleine_text {
+	text-align: center;
+}
+.navettes {
+	width: 380px;
+	height: 313.5px;
+}
+.navettes_image {
+	width: 380px;
+	height: 254px;
+	background-image: url("../images_photo/navettes.jpg");
+}
+.navettes_text {
+	text-align: center;
+}
+	
+/*product-list*/
+.product_list {
+	width: 768px;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 73px;
+}
+.product_list a {
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: rgba(119, 17, 13, 0.6);
+}
+.product_list a:hover {
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: rgba(119, 17, 13, 0.2);
+}
+
+/*map-news*/
+.map-news {
+	width: 768px;
+	height: 1270px;
+	margin-top: 85px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.news {
+	width: 768px;
+	height: 930px;	
+}
+#new {
+	height: 1270px;
+	margin-top: 85px;
+	margin-right: 13px;
+	margin-left: 13px;
+	padding: 4px 0px 13px 13px;
+	font-size: 24px;
+	border-radius: 10px;
+	background-color: #d9d9d9;
+}
+#new ul {
+	padding-top: 85px;
+	list-style-type: none;
+}
+#new ul li {
+	width: 688px;
+	height: 140px;
+	margin-left: -33px;
+	background-color: #ffffff;
+	background-image: url("../images_photo/air-france-logo_ja.jpg");
+}
+#new a {
+	text-decoration: none;
+	color: blue;
+}
+#new a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+	
+.google-map {
+	width: 768px;
+	height: 630px;
+	margin-top: 185px;
+	background-color: #ffffff;
+}
+iframe {
+	width: 768px;
+	height: 589px;
+	margin-top: 70px;
+	}
+	
+.commercial {
+	width: 768px;
+	height: 576px;
+	margin-top: 85px;
+	margin-left: 0px;
+	background-image: url("../images_photo/air-france-commercial.jpg");
+}
+	
+/*footer*/
+footer {
+	width: 768px;
+	height: 500px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	background-color: #77110D;
+	font-size: 14px;;
+}
+.footer-image {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.logo-footer {
+	width: 512px;
+}
+footer p {
+	font-size: 24px;;
+	color: #424242;
+}
+footer .nav {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+footer .nav li {
+	margin-right: 60px;
+}
+footer .nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+footer .footer_text {
+	width: 100%;
+	font-size: 24px;
+	color: #ffffff;
+	list-style-type: none;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.footer_text li {
+	width: 100%;
+	text-align: center;
+	line-height: 60px;
+}
+.copy-right {
+	display: flex;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 28px;
+}
+
+
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+}

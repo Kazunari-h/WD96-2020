@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+wrapper {
+	margin-bottom: 100px;
+}
+.inside-cart {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #77110D;
+}
+.no-product {
+	margin-top: 400px;
+	font-size: 30px;
+}
+.back-to-list {
+	margin-top: 50px;
+	font-size: 30px;
+}
+.casher {
+	font-size: 30px;
+}
+.btn-secondary {
+  width: 80px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 30px;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-secondary a {
+	text-decoration: none;
+	color: #fff;
+}
+.btn-secondary:hover {
+  
+  color: #fff;
+  background-color: #5c636a;
+  border-color: #565e64;
+}
+.btn-success {
+  width: 160px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 910px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+.btn-success a {
+	text-decoration: none;
+	color: #fff;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #157347;
+  border-color: #146c43;
+}
+.btn-info {
+  width: 270px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 805px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+.btn-info a {
+	text-decoration: none;
+	color: #fff;
+}
+.btn-info:hover {
+  color: #fff;
+  background-color: #31d2f2;
+  border-color: #25cff2;
+}
