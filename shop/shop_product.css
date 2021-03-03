@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+main {
+	margin-top: 200px;
+	display: flex;
+	justify-content: center;
+}
+wrapper {
+	margin-bottom: 100px;
+}
+.product-reference {
+	font-size: 30px;
+}
+.product-code {
+	font-size: 30px;
+}
+.product-name {
+	font-size: 30px;
+}
+.price {
+	font-size: 30px;
+	display: inline-block;
+}
+.number_format {
+	display: inline-block;
+}
+.yen {
+	font-size: 30px;
+	display: inline-block;
+}
+.number_format {
+	font-size: 30px;
+}
+.name-of-product {
+	font-size: 30px;
+}
+.cart-in {
+	font-size: 30px;
+}
+
+/*bootstrap*/
+.btn-secondary {
+  width: 80px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 30px;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-secondary a {
+	text-decoration: none;
+	color: #fff;
+}
+.btn-secondary:hover {
+  
+  color: #fff;
+  background-color: #5c636a;
+  border-color: #565e64;
+}
+
+
+

@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	width: 2000px;
+	margin: 0 auto;
+}
+.home {
+	width: 64px;
+	height: 64px;
+}
+main {
+	width: auto;
+	/*margin: 0 auto;*/
+    display: flex;
+    justify-content: center;
+}
+wrapper {
+	/*margin: 0 auto;*/	
+}
+.cart {
+	width: 64px;
+	height: 64px;
+	margin-left: 1240px;
+	
+}
+.product-list {
+	font-size: 30px;
+}
+.product-name {
+	font-size: 30px;
+}
+.price {
+	font-size: 30px;
+	display: inline-block;
+}
+.yen {
+	font-size: 30px;
+	display: inline-block;
+}
+.product {
+    margin-bottom: 3px;
+    margin-top: 100px;
+}
+.product  a img:hover {
+	background-color: rgba(191, 191, 191, 0.3);
+}
+.description {
+	width: 560px;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: rgba(119, 17, 13, 0.3); 
+	line-hight: 3;
+}
