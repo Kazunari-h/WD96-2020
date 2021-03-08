@@ -56,10 +56,6 @@ footer {
 	background-color: #77110D;
 }
 
-footer nav{
-	display: none;
-}
-
 @media screen and (min-width: 768px){
 	.menu_img {
 		width: 33.3%;
