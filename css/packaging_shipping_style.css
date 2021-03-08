@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 770px) {
+
+body {
+        /*width: 1800px;*/
+		width: 100%;
+        height: 3500px;
+        margin: 0 auto;
+        /*background-color: red;*/
+    }
+    .page {
+        width: auto;
+        margin: 0 auto;
+    }
+    /*馬場さん*/
+    .navbar-brand {
+        width: 1120px;
+        height: 114px;
+        margin-top: 26px;
+        margin-left: 70px;
+        background-image: url('../images/logo_black_1120.png');
+    }
+    .navbar-brand a {
+        width: 1120px;
+        height: 114px;
+        display: block;
+    }
+    .navbar-toggler {
+        background-color: #77110d;
+    }
+    .nav_icon {
+        color: #424242;
+    }
+    .nav-link {
+        color: #424242;
+    }
+    .nav-link:hover {
+        color: #424242;
+        opacity: 0.7;
+    }
+    .title {
+        color: #77110d;
+    }
+    /*馬場さん*/
+
+	.home-position {
+	width: 1600px;
+	margin-right: auto;
+	margin-left: auto;
+    margin-bottom: -100px;
+	display: flex;
+	justify-content: flex-start;
+}
+	.home {
+	width: 96px;
+	height: 96px;
+}
+	.main-image {
+	width: 1600px;
+	height: 1067px;
+	background-image: url('../images/package_Grand-Maison-Tokyo_1600.jpg');
+	}
+    .wrapper {
+        width: 1600px;
+        height: 2000px;
+        margin-top: 100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+	.wrapper p {
+	font-size: 30px;
+	}
+	section {
+	margin-top: 50px;
+}
+	section h1 {
+	font-size: 36px;
+}
+	section h2 {
+	font-size: 33px;
+}
+	section ul li {
+	font-size: 30px;
+	margin-top: 30px;
+}
+	.products {
+	width: 1570px;
+	padding: 15px;
+	border-radius: 20px;
+	border-color: #77110d;
+	border: solid;
+	border-width: thick;
+	background-color: rgba(119, 17, 13, 0.3);
+}
+	.order {
+	width: 1570px;
+	padding: 50px 15px 50px 15px;
+	
+}
+	.shipping {
+	width: 1570px;
+	padding: 15px 10px 10px 15px;
+	background-color: #d9d9d9;
+}
+    /*馬場さん*/
+    footer {
+		margin-top: 650px;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        background-color: #77110d;
+        font-size: 30px;
+    }
+    .footer-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-footer {
+        width: 1200px;
+    }
+    footer p {
+        font-size: 0.9rem;
+        color: #424242;
+    }
+    footer .nav {
+        display: flex;
+        justify-content: center;
+    }
+	
+    footer .nav li {
+        margin-right: 60px;
+		list-style-type: none;
+    }
+    footer .nav a {
+        color: #ffffff;
+		text-decoration: none;
+        
+    }
+    footer .footer_text {
+        width: 100%;
+        font-size: 30px;
+        color: #ffffff;
+        list-style-type: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .footer_text li {
+        width: 100%;
+        text-align: center;
+        line-height: 60px;
+    }
+    .copy-right {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-size: 28px;
+    }
+    /*馬場さん*/
+}
+
+/*768px以下の場合*/
+@media screen and (max-width: 768px) {
+    body {
+        /*width: 1800px;*/
+        width: auto;
+        margin: 0 auto;
+        /*background-color: blue;*/
+    }
+    .page {
+        width: auto;
+        margin: 0 auto;
+    }
+    .header {
+        height: 50px;
+    }
+    .navbar-brand {
+        width: 478px;
+        height: 49px;
+        margin-top: 11px;
+        margin-left: 30px;
+        background-image: url('../images_photo/logo_black.jpg');
+    }
+    .navbar-brand a {
+        width: 478px;
+        height: 49px;
+        display: block;
+    }
+	
+	.home-position {
+	width: 768px;
+	margin-right: auto;
+	margin-left: auto;
+    margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-start;
+}
+	.home {
+	width: 64px;
+	height: 64px;		
+}
+	
+	.main-image {
+	width: 768px;
+	height: 512px;
+	margin-bottom: 100px;
+	background-image: url('../images_photo/package_Grand-Maison-Tokyo_768.jpg');
+	background-repeat: no-repeat;
+	}
+	.wrapper p {
+	font-size: 24px;
+	}
+	section {
+	margin-top: 21px;
+}
+	section h1 {
+	font-size: 29px;
+}
+	section h2 {
+	font-size: 26px;
+}
+	section ul li {
+	font-size: 24px;
+	margin-top: 13px;
+}
+	.products {
+	width: 768px;
+	padding: 7px;
+	border-radius: 10px;
+	border-color: #77110d;
+	border: solid;
+	border-width: medium;
+	background-color: rgba(119, 17, 13, 0.3);
+}
+	.order {
+	width: 768px;
+	padding: 50px 7px 50px 7px;
+	
+}
+	.shipping {
+	width: 768px;
+	padding: 15px 10px 50px 15px;
+	background-color: #d9d9d9;
+}
+	
+	
+	
+	
+	
+	
+	  /*footer*/
+    footer {
+        width: 768px;
+        height: 500px;
+		margin-top: 100px;
+        padding-top: 70px;
+        padding-bottom: 20px;
+        background-color: #77110d;
+        font-size: 14px;
+    }
+    .footer-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-footer {
+        width: 512px;
+    }
+    footer p {
+        font-size: 24px;
+        color: #424242;
+    }
+    footer .nav {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    footer .nav li {
+        margin-right: 60px;
+    }
+    footer .nav a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    footer .footer_text {
+        width: 100%;
+        font-size: 24px;
+        color: #ffffff;
+        list-style-type: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .footer_text li {
+        width: 100%;
+        text-align: center;
+        line-height: 60px;
+    }
+    .copy-right {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-size: 28px;
+    }
+}

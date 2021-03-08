@@ -307,6 +307,26 @@
         margin-left: 0px;
         background-image: url('../images/air-france-commercial_800.jpg');
     }
+	.packaging-shipping {
+        width: 1800px;
+		margin-top: 200px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .packaging-shipping a {
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: rgba(119, 17, 13, 0.6);
+    }
+    .packaging-shipping a:hover {
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: rgba(119, 17, 13, 0.2);
+    }
     /*馬場さん*/
     footer {
         padding-top: 100px;
@@ -387,7 +407,7 @@
     }
     .wrapper {
         width: 768px;
-        height: 6100px;
+        height: 6190px;
         margin-top: 43px;
         margin: 0 auto;
         /*margin-right:auto;
@@ -660,6 +680,27 @@
         margin-left: 0px;
         background-image: url('../images_photo/air-france-commercial.jpg');
     }
+	.packaging-shipping {
+        width: 768px;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 1220px;
+    }
+    .packaging-shipping a {
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: rgba(119, 17, 13, 0.6);
+    }
+    .packaging-shipping a:hover {
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: rgba(119, 17, 13, 0.2);
+    }
+	
     /*footer*/
     footer {
         width: 768px;
